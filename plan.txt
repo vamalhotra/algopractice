@@ -1,0 +1,16 @@
+backtracking(appears very often)
+dynamic programming
+graphs (dfs, bfs, union find [usually asked as a follow up question to optimize a purely dfs/bfs approach], dijkstra)
+two pointers (very often)
+binary search (very very often)
+Trees 
+
+Should be very comfortable with below topics:
+Tries
+Suffix trees, Suffix arrays and usages
+Union Find Algo and usages
+
+
+Good resources:
+1. Leetcode
+2. https://emre.me/coding-patterns
