@@ -60,7 +60,7 @@ layout: default
               <span class="complexity">{{post.preview | truncatewords:1}}</span>
               <span class="entry-date">
                 <time datetime="{{ post.date | date_to_xmlschema }}" 
-                  itemprop="datePublished">{{ post.date | date: "%m/%d/%Y" }}
+                  itemprop="datePublished">{{ post.date | date: "%Y/%m/%d" }}
                 </time>
               </span>
             </li>
