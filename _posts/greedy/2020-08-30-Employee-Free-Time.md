@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Employee Free Time
-preview: We are given a list schedule of employees which represents the working time for each employee  Each employee has a list of nonover
+preview: Hard We are given a list schedule of employees which represents the working time for each employee  Each employee has a list of nonover
 date: 2020-08-30 21:23:57 +0000
 categories: greedy
 lcid: 759
 ---
 
 ## 759. Employee Free Time
-
+Hard  
 We are given a list `schedule` of employees, which represents the working time for each employee.
 
 Each employee has a list of non-overlapping `Intervals`, and these intervals are in sorted order.

@@ -4,6 +4,11 @@
 
 {% comment %}
 {{ post.content | truncatewords: 40 | strip_html  }} 
+<span class="entry-date">
+    <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ post.date | date: date_format }}
+    </time>
+</span>
 {% endcomment %}
-
 {{ post.preview }} 

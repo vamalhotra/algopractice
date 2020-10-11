@@ -35,5 +35,24 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  <div class="related">
+    <h2>Related Posts</h2>
+    {% assign firstCategory = page.categories | first %}
+    {% assign relatedCount = 0 %}
+    {% for related in site.categories[firstCategory] %}
+        {% unless page.url == related.url %}
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            {% assign post = related %}
+            {% include post_preview.html %}
+            <!--<a href="{{ related.url | relative_url }}">{{ related.title }}</a>-->
+        {% endunless %}
+
+        {% if relatedCount == 5 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+  </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
 </article>

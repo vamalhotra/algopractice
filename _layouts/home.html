@@ -9,6 +9,8 @@ layout: default
 
   {{ content }}
 
+  {% comment %}
+  <!-- this displays just list of categories -->
   {%- if site.categories.size > 0 -%}
   <div class="categories">
     <h2 class="category-list-heading">{{ page.category_title | default: "Categories" }}</h2>
@@ -19,7 +21,10 @@ layout: default
     </ul>
   </div>
   {%- endif -%}
-  
+  {% endcomment %}
+
+  {% comment %}
+  <!-- this is default from minima and displays list of posts -->
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -38,8 +43,33 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+  {%- endif -%}
+  {% endcomment %}
+
+  {%- if site.categories.size > 0 -%}
+    <div class="posts">
+      <h2 class="category-list-heading">{{ page.posts_title | default: "Posts" }}</h2>
+      <ul>
+      {%- for category in site.categories -%}
+        <li><a href="{{site.baseurl}}/category/{{ category[0] }}">{{category[0] | capitalize}}</a></li>
+        <ul>
+          {% assign pages_list = category[1] %}
+          {% for post in pages_list reversed %}
+            <li>
+              <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
+              <span class="complexity">{{post.preview | truncatewords:1}}</span>
+              <span class="entry-date">
+                <time datetime="{{ post.date | date_to_xmlschema }}" 
+                  itemprop="datePublished">{{ post.date | date: "%m/%d/%Y" }}
+                </time>
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+      {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
 </div>
