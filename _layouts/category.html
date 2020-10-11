@@ -1,16 +1,15 @@
---- 
+---
 layout: default
-
 ---
 
 <!--
 This layout is essentially finding all posts with the current category 
 (page.tag) and rendering a preview of each. 
 page.tag will contain the name of the category as defined in 
-our category collection, which is the next thing for us to do.
+our category collection.
 -->
 <div class="blog list">
-    <h1>Filed Under <small>#{{ page.tag }}</small></h1>
+    <h1>Filed Under <small>#{{ page.tag | capitalize }}</small></h1>
 
     {% for post in site.categories[page.tag] %} {% include post_preview.html %} {% endfor %}
 </div>
