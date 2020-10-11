@@ -1,3 +1,9 @@
 <a class="post-link" href="{{ post.url | relative_url }}">
     {{ post.title | escape }}
-</a> {{ post.preview }}
+</a> 
+
+{% comment %}
+{{ post.content | truncatewords: 40 | strip_html  }} 
+{% endcomment %}
+
+{{ post.preview }} 
