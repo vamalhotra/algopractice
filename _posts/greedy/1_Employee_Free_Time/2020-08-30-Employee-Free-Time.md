@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Employee Free Time
+preview: We are given a list schedule of employees which represents the working time for each employee  Each employee has a list of nonover
 date: 2020-08-30 21:23:57 +0000
-category: greedy
+categories: greedy
 lcid: 759
 ---
 

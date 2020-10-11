@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Keys And Rooms
+preview: Medium  There are N rooms and you start in room 0 Each room has a distinct number in 0 1 2  N1 and each room may have s
 date: 2020-09-08 00:06:14 +0000
-category: search
+categories: search
 lcid: 841
 ---
 

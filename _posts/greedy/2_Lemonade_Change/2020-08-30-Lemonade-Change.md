@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Lemonade Change
+preview: Easy  At a lemonade stand each lemonade costs 5   Customers are standing in a queue to buy from you and order one at a time in
 date: 2020-08-30 23:33:00 +0000
-category: greedy
+categories: greedy
 lcid: 860
 ---
 

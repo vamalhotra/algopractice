@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Find Eventual Safe States
+preview: Medium  In a directed graph we start at some node and every turn walk along a directed edge of the graph If we reach a node that is
 date: 2020-09-06 01:09:26 +0000
-category: graphs
+categories: graphs
 lcid: 802
 ---
 

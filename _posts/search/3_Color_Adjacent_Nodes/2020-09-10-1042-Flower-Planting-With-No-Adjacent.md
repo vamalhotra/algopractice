@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Flower Planting With No Adjacent
+preview: Easy  You have N gardens labelled 1 to N In each garden you want to plant one of 4 types of flowers  pathsi  x y de
 date: 2020-09-10 00:42:59 +0000
-category: search
+categories: search
 lcid: 1042
 ---
 

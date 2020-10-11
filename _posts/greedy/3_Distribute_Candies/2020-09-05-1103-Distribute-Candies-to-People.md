@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Distribute Candies To People
+preview: Easy  We distribute some number of candies to a row of n  numpeople people in the following way  We then give 1 candy to
 date: 2020-09-05 23:57:52 +0000
-category: greedy
+categories: greedy
 lcid: 1103
 ---
 

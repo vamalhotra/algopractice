@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Split Array Into Fibonacci Sequence
+preview: Medium  Given a string S of digits such as S  123456579 we can split it into a Fibonaccilike sequence 123 456 579
 date: 2020-09-09 23:51:22 +0000
-category: search
+categories: search
 lcid: 842
 ---
 

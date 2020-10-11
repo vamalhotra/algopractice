@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Balanced Binary Tree
+preview: Easy  Given a binary tree determine if it is heightbalanced  For this problem a heightbalanced binary tree is defined as   a
 date: 2020-09-22 23:12:02 +0000
-category: tree
+categories: tree
 lcid: 110
 ---
 

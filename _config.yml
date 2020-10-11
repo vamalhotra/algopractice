@@ -53,4 +53,21 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+#define the category collection which allows use throughout templates
+#output=true allows to generate pages for each category
+collections:
+  category:
+    output: true
+
+#add a default layout property to each category
+#This sets the default layout to category for all elements 
+#of our category collection
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
 permalink: /:categories/:title

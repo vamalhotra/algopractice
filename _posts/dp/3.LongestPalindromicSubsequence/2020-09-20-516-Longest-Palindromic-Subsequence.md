@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Longest Palindromic Subsequence
+preview: Medium  Given a string s find the longest palindromic subsequences length in s You may assume that the maximum length of s is 1000
 date: 2020-09-20 23:46:42 +0000
-category: dp
+categories: dp
 lcid: 516
 ---
 

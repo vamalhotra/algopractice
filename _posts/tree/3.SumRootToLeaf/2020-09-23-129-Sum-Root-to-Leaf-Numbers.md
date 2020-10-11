@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Sum Root To Leaf Numbers
+preview: Medium  Given a binary tree containing digits from 09 only each roottoleaf path could represent a number  An example is the ro
 date: 2020-09-23 00:37:33 +0000
-category: tree
+categories: tree
 lcid: 129
 ---
 

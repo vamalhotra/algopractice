@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Maximum Length Of Repeated Subarray
+preview: Medium  Given two integer arrays A and B return the maximum length of an subarray that appears in both arrays  Example 1
 date: 2020-09-20 12:22:27 +0000
-category: dp
+categories: dp
 lcid: 718
 ---
 

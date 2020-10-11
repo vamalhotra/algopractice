@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Max Consecutive Ones III
+preview: Medium  Given an array A of 0s and 1s we may change up to K values from 0 to 1  Return the length of the longest contiguous s
 date: 2020-09-19 15:30:49 +0000
-category: sliding_window
+categories: sliding_window
 lcid: 1004
 ---
 

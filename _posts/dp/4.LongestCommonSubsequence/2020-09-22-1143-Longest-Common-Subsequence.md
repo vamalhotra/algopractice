@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Longest Common Subsequence
+preview: Medium  Given two strings text1 and text2 return the length of their longest common subsequence  A subsequence of a string is
 date: 2020-09-22 01:07:43 +0000
-category: dp
+categories: dp
 lcid: 1143
 ---
 
