@@ -242,7 +242,7 @@ namespace EmptyProject
 
         static void Main(string[] args)
         {
-            var dir = @"C:\Users\vimalhot\source\repos\algopractice\_posts\";
+            var dir = @"C:\Users\*\source\repos\algopractice\_posts\";
             PutYAMLFrontMatter(dir);
             //RenameFiles(dir);
             //var index = GenerateIndex(dir);
