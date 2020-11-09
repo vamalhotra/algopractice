@@ -1,0 +1,57 @@
+//https://leetcode.com/problems/race-car/discuss/124326/Summary-of-the-BFS-and-DP-solutions-with-intuitive-explanation
+//https://leetcode.com/problems/race-car/discuss/123834/JavaC%2B%2BPython-DP-solution
+public class Solution
+{
+	class State
+	{
+		public int Position;
+		public int Speed;
+	}
+
+	class StateManager
+	{
+		public State state;
+
+		public State ApplyA()
+		{
+			var newState = new State();
+			newState.Position = state.Position + state.Speed;
+			newState.Speed *= 2;
+			return newState;
+		}
+
+		public State ApplyR()
+		{
+			var newState = new State();
+			newState.Speed = state.Speed > 0 ? -1 : 1;
+			return newState;
+		}
+	}
+
+	int[] dp = new int[10001];
+
+	//Command A = p = p+s, s *= 2
+	public int Racecar(int target)
+	{
+		if (dp[target] > 0) return dp[target];
+
+		Console.WriteLine($"target={target}");
+
+		int n = (int)(Math.Log(target) / Math.Log(2)) + 1;
+		if (Math.Pow(2,n) == target + 1)
+		{
+			dp[target] = n;
+		}
+		else
+		{
+			dp[target] = Racecar((int)Math.Pow(2, n) - 1 - target) + n + 1;
+			for (int m = 0; m < n - 1; ++m)
+			{
+				var dist = Racecar(target - (int)Math.Pow(2, n-1) + (int)Math.Pow(2, m));
+				dist = dist + n + m + 1;
+				dp[target] = Math.Min(dp[target], dist);
+			}
+		}
+		return dp[target];
+	}
+}
