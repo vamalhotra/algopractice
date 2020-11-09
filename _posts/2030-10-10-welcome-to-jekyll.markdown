@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Jekyll
-preview: Sample Jekyll post
-date: 2030-10-10 21:14:10 +0000
-categories: algopractice
+title: Name"
+preview: end printhiTom  prints Hi Tom to STDOUT  endhighlight   Check out the Jekyll docsjekylldocs for more info on how
+date: 2020-10-10 21:14:10 +0000
+categories: _posts
 lcid: 
 ---
 

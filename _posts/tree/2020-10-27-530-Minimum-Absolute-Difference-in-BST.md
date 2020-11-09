@@ -1,3 +1,12 @@
+---
+layout: post
+title: Minimum Absolute Difference In BST
+preview: Easy  Given a binary search tree with nonnegative values find the minimum absolute differencehttpsenwikipediaorgwikiAbsolut
+date: 2020-10-27 00:06:51 +0000
+categories: tree
+lcid: 530
+---
+
 # 530. Minimum Absolute Difference in BST
 
 Easy

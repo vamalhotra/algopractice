@@ -1,3 +1,12 @@
+---
+layout: post
+title: Search In A Binary Search Tree
+preview: Easy  Given the root node of a binary search tree BST and a value You need to find the node in the BST that the nodes value equals
+date: 2020-10-26 01:19:20 +0000
+categories: tree
+lcid: 700
+---
+
 # 700. Search in a Binary Search Tree
 
 Easy

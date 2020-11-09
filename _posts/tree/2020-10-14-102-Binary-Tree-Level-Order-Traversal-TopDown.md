@@ -1,3 +1,12 @@
+---
+layout: post
+title: Binary Tree Level Order Traversal
+preview: Medium  Given a binary tree return the level order traversal of its nodes values ie from left to right level by level  For
+date: 2020-10-14 00:34:55 +0000
+categories: tree
+lcid: 102
+---
+
 # 102. Binary Tree Level Order Traversal
 
 Medium

@@ -1,3 +1,12 @@
+---
+layout: post
+title: Find Duplicate Subtrees
+preview: Medium  Given the root of a binary tree return all duplicate subtrees  For each kind of duplicate subtrees you only need to
+date: 2020-10-25 18:25:47 +0000
+categories: tree
+lcid: 652
+---
+
 # 652. Find Duplicate Subtrees
 
 Medium

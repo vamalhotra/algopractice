@@ -1,3 +1,12 @@
+---
+layout: post
+title: Serialize And Deserialize Binary Tree
+preview: Hard  Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file
+date: 2020-10-25 18:15:41 +0000
+categories: tree
+lcid: 297
+---
+
 # 297. Serialize and Deserialize Binary Tree
 
 Hard

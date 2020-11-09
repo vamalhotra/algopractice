@@ -1,3 +1,12 @@
+---
+layout: post
+title: Binary Tree Level Order Traversal II
+preview: Easy  Given a binary tree return the bottomup level order traversal of its nodes values ie from left to right level by level f
+date: 2020-10-14 11:32:39 +0000
+categories: tree
+lcid: 107
+---
+
 # 107. Binary Tree Level Order Traversal II
 
 Easy

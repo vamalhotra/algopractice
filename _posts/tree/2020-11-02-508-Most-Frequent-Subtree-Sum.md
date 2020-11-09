@@ -1,3 +1,12 @@
+---
+layout: post
+title: Most Frequent Subtree Sum
+preview: Medium  Given the root of a tree you are asked to find the most frequent subtree sum The subtree sum of a node is defined as the sum
+date: 2020-11-09 19:53:44 +0000
+categories: tree
+lcid: 508
+---
+
 # 508. Most Frequent Subtree Sum
 
 Medium

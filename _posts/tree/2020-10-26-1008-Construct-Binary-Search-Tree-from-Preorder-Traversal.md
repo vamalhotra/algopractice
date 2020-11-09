@@ -1,3 +1,12 @@
+---
+layout: post
+title: Construct Binary Search Tree From Preorder Traversal
+preview: Medium  Return the root node of a binary search tree that matches the given preorder traversal  Recall that a binary search
+date: 2020-10-26 01:11:35 +0000
+categories: tree
+lcid: 1008
+---
+
 # 1008. Construct Binary Search Tree from Preorder Traversal
 
 Medium

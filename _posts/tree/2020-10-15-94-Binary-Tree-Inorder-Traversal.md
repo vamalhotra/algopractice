@@ -1,3 +1,12 @@
+---
+layout: post
+title: Binary Tree Inorder Traversal
+preview: Medium  Given the root of a binary tree return the inorder traversal of its nodes values  Example 1  imghttpsass
+date: 2020-10-15 18:47:00 +0000
+categories: tree
+lcid: 94
+---
+
 # 94. Binary Tree Inorder Traversal
 
 Medium

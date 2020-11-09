@@ -1,3 +1,12 @@
+---
+layout: post
+title: Binary Tree Right Side View
+preview: Medium  Given a binary tree imagine yourself standing on the right side of it return the values of the nodes you can see ordered fr
+date: 2020-11-09 23:48:55 +0000
+categories: tree
+lcid: 199
+---
+
 # 199. Binary Tree Right Side View
 
 Medium
